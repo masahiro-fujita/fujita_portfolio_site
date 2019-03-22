@@ -23,10 +23,14 @@ body {
   line-height: 52px;
   cursor: pointer;
 }
+.header-link-icon {
+  color: black;
+}
 .header-link-icon:hover {
   transition: 0.3s;
   color: white;
   background-color: black;
+  text-decoration: none;
 }
 /* main */
 h2 {
@@ -55,7 +59,7 @@ h2 {
 /* 中デバイス（タブレット, 992px 未満） */
 @media (max-width: 992px) {
   #header-link {
-    font-size: 16px;
+    font-size: 18px;
   }
   h2 {
     font-size: 48px;
@@ -64,7 +68,7 @@ h2 {
 /* 小デバイス（横向きモバイル, 768px 未満） */
 @media (max-width: 768px) {
   #header-link {
-    font-size: 14px;
+    font-size: 16px;
   }
   .works-content-parts {
     padding-bottom: 45px;
@@ -73,6 +77,6 @@ h2 {
 /* 極小デバイス（縦向きモバイル, 576px 未満） */
 @media (max-width: 576px) {
   #header-link {
-    font-size: 12px;
+    font-size: 14px;
   }
 }

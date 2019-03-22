@@ -3,26 +3,75 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet"> -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <title>fujita portfolio</title>
+  <title>Portfolio | Masahiro Fujita</title>
 </head>
 <body>
+  <!-- header -->
   <header>
     <div id="header">Masahiro Fujita portfolio</div>
     <div class="container">
       <div id="header-link" class="row justify-content-center text-center">
-        <div class="col-3 header-link-icon">PROFILE</div>
-        <div class="col-3 header-link-icon">SKILL</div>
-        <div class="col-3 header-link-icon">WORKS</div>
-        <div class="col-3 header-link-icon">CONTACT</div>
+        <a href="#profile" class="col-4 header-link-icon">PROFILE</a>
+        <a href="#skill" class="col-4 header-link-icon">SKILL</a>
+        <a href="#works" class="col-4 header-link-icon">WORKS</a>
       </div>
     </div>
   </header>
   <main>
-    <div class="container mt-5 pt-5">
+    <!-- PROFILE -->
+    <div id="profile" class="container mt-5 pt-5">
+      <h2 style="font-weight:bold;">PROFILE</h2>
+      <div class="row mt-4">
+        <div class="col-lg-7 text-center mx-auto" style="font-weight:lighter; line-height:2em;">
+          東海大学情報通信学部組込みソフトウェア工学科の藤田雅大と申します。
+          大学ではIoT(Internet of Things)やIoTを取り入れた組込みシステムを中心に勉強しています。
+          大学でC言語に触れたことでプログラミングが好きになったこと・イラストを見ることが好きで、Webプログラミングに興味を持ち大学３年から
+          Webフロントエンジニアになるために日々勉強しています。
+        </div>
+        <div class="col-lg-7 text-center mx-auto mt-3" style="font-weight:lighter;">COMTACT : <a href="mailto:sketchbook.fm&#64;gmail.com" style="font-weight:lighter;">sketchbook.fm@gmail.com</a></div>
+      </div>
+    </div>
+    <!-- SKILL -->
+    <div id="skill" class="container mt-5 pt-5">
+      <h2 style="font-weight:bold;">SKILL</h2>
+      <div class="row col-lg-9 mt-3 mx-auto">
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th>技術</th><th>スキル</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5</td><td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>CSS3</td><td>★★★★☆</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td><td>★★★☆☆</td>
+            </tr>
+            <tr>
+                <td>jQuery</td><td>★★★☆☆</td>
+            </tr>
+            <tr>
+                <td>Vue.js</td><td>★★☆☆☆</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td><td>★★★☆☆</td>
+            </tr>
+            <tr>
+                <td>Sass</td><td>★★★☆☆</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- WORKS -->
+    <div id="works" class="container mt-5 py-5">
       <h2 style="font-weight:bold;">WORKS</h2>
       <div class="row justify-content-center text-center mt-4">
         <div class="col-md-4 works-content">
@@ -56,7 +105,9 @@
       </div>
     </div>
   </main>
-  <footer></footer>
+  <footer class="mt-5 text-center" style="background-color:black; height:90px;">
+    <p style="color:white; margin:0; font-size:12px; line-height: 90px;">@2019 Portfolio | Masahiro Fujita</p>
+  </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
