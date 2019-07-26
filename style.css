@@ -3,8 +3,11 @@
   font-family: 'Anton', sans-serif;
   font-weight: bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 /* header */
 #header {
@@ -14,7 +17,7 @@ body {
   color: white;
   text-align: center;
   line-height: 25vw;
-  background-image: url("./assets/header_image.jpg");
+  background-image: url('./assets/header_image.jpg');
   background-size: 100% auto;
 }
 #header-link {
@@ -50,7 +53,7 @@ h2 {
   padding: 0 10px;
 }
 .works-content img {
-  box-shadow:0px 0px 4px -1px #000000;
+  box-shadow: 0px 0px 4px -1px #000000;
 }
 .works-content-parts {
   padding-bottom: 25px;
